@@ -14,7 +14,9 @@ def leer_menu():
     data=data.to_dict(orient="records")
     return jsonify(data)
 
-
+@app.route("/especial")
+def platillo_especial():
+    return jsonify({"mensaje": "el platillo especial es..."})
     
  
 
