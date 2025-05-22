@@ -4,7 +4,7 @@ from datetime import datetime
 
 URL="postgresql://jesse:NuIyzDWW4PVYHCF7HVRjPrKdMdzGbdi0@dpg-d0d4vq15pdvs73f7o7ag-a.oregon-postgres.render.com/pokemones_nqom"
 
-app= Flask(_name_)
+app= Flask(__name__)
 
 app.route("/")
 def introduccion():
